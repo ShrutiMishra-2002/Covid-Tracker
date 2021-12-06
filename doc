@@ -1,0 +1,26 @@
+-- pil photo syntax
+from PIL import Image,ImageTk
+
+#img=Image.open('./bg.png')
+img=img.resize(600,500),Image.ANTIALIAS
+img_photo=ImageTk.PhotoImage(img)
+bg_lbl=Tk.Label(root,image=img_photo)
+bg_lbl.place(x=0,y=0,width=600,height=500)
+
+-- photo syntax
+photo = PhotoImage(file="mask.png")
+photo_label = Label(image=photo , height=500 , width=500 )
+photo_label.pack()
+-- covid tracker
+root= Tk()
+root.geometry("600x700")
+root.maxsize(600,700)
+root.title("corona tracker app")
+f= ("poppins", 15,"bold")
+button=Button(root, font= f, text="load", command=getCovidData)
+button.pack(pady=20)
+label1=Label(root, font=f)
+label1.pack(pady=20)
+label2=Label(root, font=f)
+label2.pack()
+root.mainloop()
