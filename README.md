@@ -25,12 +25,12 @@ Covid Tracker App GUI by fetching api and using Tkinter module in python.
 <h2>BEFORE CLICKING ON LOAD</h2>
 <br><br>
 
-<img src="main1.png" alt="output" width="700px" height="400px">
+<img src="main3.png" alt="output" width="700px" height="400px">
 <br><br>
 <h2>AFTER CLICKING ON LOAD</h2>
 <br><br>
 
-<img src="main2.png" alt="output" width="700px" height="400px">
+<img src="main4.png" alt="output" width="700px" height="400px">
 <br><br>
 
 

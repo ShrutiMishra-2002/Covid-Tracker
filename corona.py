@@ -24,9 +24,10 @@ def getCovidData():
 root= Tk()
 
 # root.geometry("1200x1000")
-root.geometry("600x800")
+root.geometry("1200x800")
 # widthxheight
-root.maxsize(600,800)
+# root.maxsize(600,800)
+root.maxsize(1200,800)
 root.title("Covid Tracker App")
 f= ("poppins", 15,"bold")
 # to give background colour we use root.config(bg='colour')
