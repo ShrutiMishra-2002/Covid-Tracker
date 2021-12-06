@@ -10,7 +10,8 @@
 <h2> About this project : </h2>
 <br><br>
 <p>
-Covid Tracker App GUI by fetching api and using Tkinter module in python.
+Covid Tracker App GUI made by fetching api and using Tkinter module in python.
+This app uses information from API and gives details about today's cases, today's death, today's recovered cases, total cases and total deaths. It also features the updated time, it can be reloaded in 1 min for updated informations.
 </p>
 <br><br>
 
